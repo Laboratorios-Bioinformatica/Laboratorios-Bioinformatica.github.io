@@ -1,43 +1,152 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset= "UTF-8">
-	<title>My website </title>
-	<link rel="stylesheet" href="stylesheets/style.css">
-	<link rel="stylesheet" href="stylesheets/w3.css">
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
-	<script src="https://kit.fontawesome.com/042850ffd1.js" crossorigin="anonymous"></script>
-	
-</head>
-<body id="grad1">
+<html>
+<title>Grupo 6</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="stylesheets/w3.css">
+<link rel="stylesheet" href="stylesheets/tab.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/042850ffd1.js" crossorigin="anonymous"></script>
+
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-color: #f1f1f1;
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+</style>
+
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <!-- Right-sided navbar links -->
+      <div class="topnav">
+        <a href="#home"><i class="fas fa-home"></i>Home</a>
+        <a href="#tuber"><i class="fas fa-bacterium"></i>    Mycobacterium tuberculosis</a>
+        <a href="#aureus"><i class="fas fa-bacterium"></i>    Staphylococcus aureus</a>
+      </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+  </div>
+</div>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small" style="color: black;">Laboratórios de Bioinformática</span><br>
+    <span class="w3-large" style="color: black;">Grupo composto por:</span>
+    <ul style="color: black;">
+      <li>Beatriz Silva, PG45465</li>
+      <li>Quitéria Pinheiro, PG45968</li>
+      <li>Rúben Silva, PG44580</li>
+      <li>Tiago Oliveira, PG45476</li>
+    </ul>
+  </div> 
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="tuber">
+  <h3 class="w3-center w3-xxlarge">Mycobacterium tuberculosis</h3>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <b class="w3-xlarge">Características da bactéria</b>
+      <p>As bactérias do género Mycobacterium são bacilos (pleomórficos) gram positivo retos ou encurvados, cocobacilos, filamentosos ou formas ramificadas. Este organismo tem um comprimento de aproximadamente 1 a 10 μm, uma largura entre 0.2 e 0.6 μm e não formam esporo, flagelo ou cápsula. Apresenta uma parede complexa quanto à sua composição química, Lipídios de natureza hidrofóbica para a parede e ainda Bacilos Álcool Ácidos Resistentes (BAAR). Estas bactérias são intracelulares que infetam e proliferam-se no interior de macrófagos e linfócitos.</p>
+    </div>
+    <div class="w3-quarter">
+      <b class="w3-xlarge">Tuberculose</b>
+      <p>A Tuberculose é a responsável pela morte de mais de 1 bilião de pessoas nos últimos 200 anos, esta doença cronica infeciosa é provocada pela bactéria Mycobacterium tuberculosis. Esta bactéria propaga-se pelo ar, quando uma pessoa infetada tosse, espirra, fala ou expele saliva podendo ser inalada por outro individuo. O sucesso da infeção e do desenvolvimento de tuberculose depende da sucessão de 4 passos: a fagocitose do bacilo, a multiplicação multicelular, o período de latência da infeção e da infeção ativa do pulmão.<br>
+        Atualmente a Tuberculose continua a ser responsável pelo maior número de mortes provocadas por um único agente infecioso, causando cerca de 10,4 milhões de novos casos e 1,7 milhão de mortes por ano. O controlo da Tuberculose é dificultado pelo facto de depender amplamente de uma técnica de diagnostico microscópica com 120 anos com baixa sensibilidade, de uma vacina com 100 anos com eficácia limitada e medicamentos com 40 e 60 anos. </p>
+    </div>
+    <div class="w3-quarter">
+      <b class="w3-xlarge">Sintomas:</b>
+      <p>Os sintomas da tuberculose estão principalmente relacionados com o desenvolvimento da bactéria nos pulmões, podendo haver tosse seca e persistente com ou sem sangue, perda de peso, dor no peito ao tossir e dificuldade respiratória.<br>
+        No entanto, quando a bactéria desenvolve-se em outros órgãos, é possível que surjam outros sintomas como cansaço excessivo, suor noturno, febre e inchaço no local em que a bactéria está instalada.</p>
+    </div>
+    <div class="w3-quarter">
+      <b class="w3-xlarge">Ciclo de vida da bactéria</b>
+      <p>A resposta imunológica para a Mycobacterium tuberculosis não é completamente eficaz. Esta leva a bactéria para um estado latente, mas raramente a elimina. Infelizmente o estado latente da Mycobacterium tuberculosis é reversível, e a reativação da tuberculose é a fonte da maioria das transmissões. A infeção da tuberculose acontece em 4 etapas: A resposta inicial dos macrófagos, a etapa de crescimento, a etapa de controlo imunológico e a etapa do abcesso pulmonar. Estas quatro etapas ocorrem em cerca de 1 mês.</p>
+    </div>
+  </div>
+</div>
 
 
-	<div id="mySidebar" class="sidebar">
-  		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-		<a href="index.html"><i class="fas fa-home"></i>Home</a>
-		<a href="tuberculosis.html"><i class="fas fa-bacterium" aria-hidden="true"></i>    Mycobacterium tuberculosis</a>
-		<a href="aureus.html"><i class="fas fa-bacterium" aria-hidden="true"></i>    Staphylococcus aureus</a>
-		
-		
-	</div>
-	
-	
-	<div id="main">
- 		<button class="openbtn" onclick="openNav()">☰ </button>  
-	</div>
-	<h1 style="text-align:center">Disciplina: Laboratórios para Bioinformática</h1>
-	<script>
-	function openNav() {
-  		document.getElementById("mySidebar").style.width = "100px";
-  		document.getElementById("main").style.marginLeft = "250px";
-	}
+<div class="w3-container w3-light-grey" style="min-height: 100%; padding-top: 80px;">
+  <h3 class="w3-center w3-xxlarge">Mycobacterium tuberculosis</h3>
+  <div class="w3-row-padding" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom" style="margin-left:10%">
+      <div class="w3-card">
+        <img src="images/genoma.png" alt="genoma" style="width:150%">
+      </div>
+    </div>
+    <div class="w3-col l4 m9" style="margin-left:15%">
+      <p> O genoma é rico em DNA repetitivo, particularmente sequencias de inserção, e em novas famílias multígenas e genes de manutenção duplicados. O conteúdo G + C é relativamente constante em todo o genoma, indicando que ilhas de patogenicidade transferidas horizontalmente de composição de base atípica estão provavelmente ausentes. Estes correspondem a sequências pertencentes a uma grande família de genes que inclui as sequências polimórficas ricas em G + C (PGRSs).</h4>
+      <p> O círculo externo mostra a escala em Mb, onde 0 representa a origem da replicação. O primeiro anel exterior denota as posições de genes de RNA estáveis (tRNAs são azuis, outros são rosa) e a região de repetição direta (cubo rosa); o segundo anel de fora para dentro mostra a sequência de codificação por fita (sentido horário, verde escuro; sentido anti-horário, verde claro); o terceiro anel representa DNA repetitivo (sequências de inserção, laranja; família 13E12 REP, rosa escuro; profago, azul); o quarto anel mostra as posições dos membros da família do PPE (verde); o quinto anel mostra os membros da família PE (roxo, excluindo PGRS); e o sexto anel mostra as posições das sequências PGRS (vermelho escuro). O histograma (centro) representa o conteúdo de G + C, com &lt; 65% G + C em amarelo e &gt; 65% G + C em vermelho. A figura foi gerada com software da DNASTAR(7).</p>    
+    </div>
+  </div>
+</div>
 
-	function closeNav() {
-  		document.getElementById("mySidebar").style.width = "0";
-  		document.getElementById("main").style.marginLeft= "0";
-	}
-	</script>
 
-	
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="aureus">
+  <h3 class="w3-center w3-xxlarge"> Staphylococcus aureus</h3>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+  </div>
+</div>
+
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+  <h3 class="w3-center w3-xxlarge"> Staphylococcus aureus</h3>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
 </body>
 </html>
