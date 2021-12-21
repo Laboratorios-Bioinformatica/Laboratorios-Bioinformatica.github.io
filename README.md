@@ -4,6 +4,7 @@
 
 Trabalho realizado pelos elementos:
 
+- [Beatriz Silva, PG45465](https://github.com/beatrizsilva16)
 - Beatriz Silva, PG45465
 - Quitéria Pinheiro, PG45968
 - Rúben Silva, PG44580
