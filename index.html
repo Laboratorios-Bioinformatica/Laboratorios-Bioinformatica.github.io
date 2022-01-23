@@ -38,7 +38,8 @@ body, html {
   <div class="w3-bar w3-white w3-card" id="myNavbar">
     <!-- Right-sided navbar links -->
       <div class="topnav">
-        <a href="#home"><i class="fas fa-home"></i>Home</a>
+        <a href="#home"><i class="fas fa-home"></i>    Home</a>
+        <a href="#ferramentas"><i class="fas fa-tools"></i>   Ferramentas de Bioinformática</a>
         <a href="#tuber"><i class="fas fa-bacterium"></i>    Mycobacterium tuberculosis</a>
         <a href="#mura"><i class="fas fa-bacterium"></i>    murA</a>
         <a href="#ppsd"><i class="fas fa-bacterium"></i>    ppsD</a>
@@ -64,8 +65,23 @@ body, html {
   </div> 
 </header>
 
+<div class="w3-container" style="min-height: 70%; padding-top: 100px;" id = "ferramentas">
+  <h3 class="w3-center w3-xxlarge">Ferramentas Bioinformáticas</h3>
+  <div class="w3-row-padding" style="margin-top:64px; margin-left:5%; margin-right:5%;" >
+    <div class="w3-row-padding w3-left" style="margin-top:64px; margin-left:5%; margin-right:5%;" >
+      <b class="w3-xlarge">Ferramentas Utilizadas:</b>
+      <ul>
+        <li>Uniprot: visualização da funções dos genes.  <a href="https://www.uniprot.org/" target="_blank" >" https://www.uniprot.org/"</a></li> 
+        <li>PDB : visualização das estruturas secundárias que são identificáveis a partir da estrutura 3D das sequências. <a href="https://www.rcsb.org/" target="_blank" >"https://www.rcsb.org/"</a></li> 
+        <li>TMHMM ou Phobius: previsão de quantos domínios transmembranares em αhélice existem nestes genes. <a href="http://www.cbs.dtu.dk/services/TMHMM/" target="_blank" >"http://www.cbs.dtu.dk/services/TMHMM/"</a> / <a href="http://www.ebi.ac.uk/Tools/services/web_phobius/toolform.ebi" target="_blank" >"http://www.ebi.ac.uk/Tools/services/web_phobius/toolform.ebi"</a></li>
+        <li>Cell-PLoc 2.0: determinação a localização subcelular. <a href="http://www.cbs.dtu.dk/services/TargetP/" target="_blank" >"http://www.cbs.dtu.dk/services/TargetP/"</a></li> 
+        <li>NetPhos - 3.1: determinação de quantos e quais locais genéricos de fosforilação. <a href="http://www.cbs.dtu.dk/services/NetPhos/" target="_blank" >"http://www.cbs.dtu.dk/services/NetPhos/"</a></li>
+      </ul>
+    </div>    
+  </div>
+</div>
 
-<div class="w3-container" style="padding:60px 16px"  id="tuber"></div>
+<div class="w3-container w3-light-grey" style="padding:60px 16px"  id="tuber">
   <h3 class="w3-center w3-xxlarge">Mycobacterium tuberculosis</h3>
   <div class="w3-row-padding" style="margin-top:64px; margin-bottom: 60px;">
     <div class="w3-col l4 m6 w3-margin-bottom" style="margin-left:10%">
@@ -87,8 +103,9 @@ body, html {
   </div>
 </div>
 
+
 <!-- About Section -->
-<div class="w3-container w3-light-grey" style="min-height: 100%; padding-top: 80px;" id = "mura">
+<div class="w3-container" style="min-height: 100%; padding-top: 80px;" id = "mura">
   <h3 class="w3-center w3-xxlarge">murA</h3>
   <div class="w3-row-padding" style="margin-top:64px; margin-bottom: 60px;">
     <div class="w3-col l4 m6 w3-margin-bottom" style="margin-left:10%">
@@ -110,11 +127,25 @@ body, html {
         <li><a href="https://www.uniprot.org/uniprot/P9WJM1.fasta" target="_blank" >Sequência da proteina</a></li>
       </ul>
     </div>
+    <div class="w3-quarter l5 m6 w3-margin-bottom" style="margin-left:5%; margin-top:64px">
+      <p class= "w3-center"> Teste123</p>
+      <img src="images/imagem_ppsD_MT_nowhite" alt="imagem ppsD" style="width:100%">
+      <p>testetstetst</p>
+    </div>  
+    <div class="w3-third l4 m6 w3-margin-bottom" style="margin-left:5%; margin-top:64px">
+      <p class= "w3-center w3-large"> <b>Localização subcelular - Cell-PLoc 2.0</b></p>
+      <img src="images/murA_query.jpg" alt="Query murA" style="width:100%">
+    </div>
+    <div class="w3-quarter l5 m6 w3-margin-bottom" style="margin-left:5%; margin-top:64px">
+      <p class= "w3-center"> Teste123</p>
+      <img src="images/imagem_ppsD_MT_nowhite" alt="imagem ppsD" style="width:100%">
+      <p>testetstetst</p>
+    </div>
   </div>
 </div>
 
 
-<div class="w3-container" style="min-height: 100%; padding-top: 80px;" id = "ppsd">
+<div class="w3-container w3-light-grey" style="min-height: 100%; padding-top: 80px;" id = "ppsd">
   <h3 class="w3-center w3-xxlarge">ppsD</h3>
   <div class="w3-row-padding" style="margin-top:64px; margin-bottom: 60px;">
     <div class="w3-col l6 m6 w3-margin-bottom" style="margin-left:5%">
@@ -137,8 +168,7 @@ body, html {
     <div class="w3-row-padding w3-center" style="margin-top:64px; margin-left:5%; margin-right:5%;" >
       <b class="w3-xlarge">Função Biológica</b>
       <p>Parte do complexo ppsABCDE envolvido na biossíntese do núcleo lipídico comum a fthiocerols e fenolphthiocerols por sucessivas adições de unidades extensoras de malonílico-CoA ou metilmalonil-CoA.<br>
-        PpsA pode aceitar como substrato as formas ativadas de grupos de icosanoyl (C20), docosanoyl (C22) ou lignoceroyl (C24) de FadD26, ou um (4-hidroxifenil)-C17 ou (4-hidroxifenil)-C19 acilélico gorduroso de FadD29.<br>
-        O PpsA inicia a biossíntese e estende seu substrato usando uma unidade extensora malonyl-CoA. As proteínas PpsB e PpsC adicionam a segunda e terceira unidades extensoras malonyl-CoA. PpsD adiciona uma unidade (R)-metilmalonil e PpsE adiciona uma segunda (R)-unidade de metilmalonil. A incorporação das unidades de metilmalonilo resulta na formação de dois grupos de metila ramificados no produto alongado.</p>
+         PpsD adiciona uma unidade (R)-metilmalonil e PpsE adiciona uma segunda (R)-unidade de metilmalonil. A incorporação das unidades de metilmalonilo resulta na formação de dois grupos de metila ramificados no produto alongado.</p>
     </div>
   </div>
 </div>
@@ -146,7 +176,7 @@ body, html {
 
 
 <!-- About Section -->
-<div class="w3-container w3-light-grey" style="padding:128px 16px" id="aureus">
+<div class="w3-container" style="padding:128px 16px" id="aureus">
   <h3 class="w3-center w3-xxlarge"> Staphylococcus aureus</h3>
   <div class="w3-row-padding w3-center" style="margin-top:64px">
     <div class="w3-col l4 m6 w3-margin-bottom" style="margin-left:10%">
@@ -155,19 +185,29 @@ body, html {
     <div class="w3-col l4 m9" style="margin-left:5%">
       <b class="w3-xlarge">Características da bactéria</b>
       <p> Staphylococcus aureus (S. aureus) é uma bactéria esférica gram-positiva, da família Micrococcaceae, responsável por várias infeções locais e sistémicas em seres humanos. Estas bactérias possuem aproximadamente um diâmetro de 0,5 a 1,5 µm e são caracterizadas pela forma de cocos, falta de mobilidade e por serem não-esporuladas.</h4> 
-      <p> Os seres humanos são um reservatório natural de S. aureus e estima-se que cerca de 30% a 50% da população adulta saudável se encontre infetada, dos quais 10% a 20% são infetados de forma persistente. Estas pessoas apresentam um risco mais elevado de infeções subsequentes. </p>
-      <p> Por ser um agente patogénico oportunista, esta bactéria constituí uma das principais causas de doenças nosocomiais, tais como: bacteremia-sepse, endocardite, pneumonia, osteomielite, artrite e doenças de pele. </p>   
+      <p> Os seres humanos são um reservatório natural de S. aureus e estima-se que cerca de 30% a 50% da população adulta saudável se encontre infetada, dos quais 10% a 20% são infetados de forma persistente.</p>   
       <p> O uso contínuo de antibióticos contra esta bactéria resulta no desenvolvimento de cepas resistentes. Atualmente, a mupirocina é o antibiótico usado contra a S. aureus e MDR (resistente à meticilina). </p>
     </div>
-    <div class="w3-row-padding w3-center" style="margin-top:64px; margin-left:5%; margin-right:5%;" >
-      <b class="w3-xlarge">Sintomas</b>
-      <p> Os sintomas de intoxicação por S. aureus surgem, dependendo da quantidade de toxina ingerida, entre 1 e 7 horas após o consumo do alimento contaminado. Considera-se que S. aureus tem que estar presente numa concentração mínima de 105-106 por grama de alimento para que exista uma quantidade de toxina suficiente para causar doença. Quando em condições favoráveis, esta bactéria produz toxinas – enterotoxinas – que são o agente responsável pela intoxicação alimentar. Os sintomas mais comuns são náuseas e vómitos, por vezes acompanhados por diarreia e dores abdominais. A evolução clínica é, regra geral, favorável e os sintomas desaparecem normalmente ao fim de 48h. <p>
-    </div>
   </div>
+  <div class="w3-row-padding" style="margin-top:64px; margin-bottom: 60px;">
+    <div class="w3-col l4 m6 w3-margin-bottom" style="margin-left:10%">
+      <img src="images/Imagem_infeções.png" alt="imagem infeções" style="width:100%">
+    </div>
+    <div class="w3-col l4 m9" style="margin-left:5%">
+      <b class="w3-xlarge">Infecções Estafilocócicas - Sintomas</b>
+        <p> As infeções por <i>Staphylococcus aureus</i> oscilam de leves a potencialmente mortais. Esta bactéria provoca infeções que afetam a pele e podem ser:</p> 
+        <ul>
+          <li>Foliculite</li>
+          <li>Abscessos, também conhecidos por furúnculos</li>
+          <li>Celulite infeciosa</li>
+          <li>Necrólise epidérmica tóxica</li>
+          <li>Síndrome da pele escaldada (em recém-nascidos)</li>
+        </ul>
+    </div>
 </div>
 
 
-<div class="w3-container" style="min-height: 100%; padding-top: 80px;" id = "ileS">
+<div class="w3-container w3-light-grey" style="min-height: 100%; padding-top: 80px;" id = "ileS">
   <h3 class="w3-center w3-xxlarge">ileS</h3>
   <div class="w3-row-padding" style="margin-top:64px; margin-bottom: 60px;">
     <div class="w3-col l4 m6 w3-margin-bottom" style="margin-left:15%">
@@ -178,6 +218,7 @@ body, html {
       <p><u><b>Gene:</b></u> ileS</p> 
       <p><u><b>Organismo:</b></u> <i> Staphylococcus aureus</i></p>
       <p><u><b>Definição:</b></u> Identifica mutações para a isoleucil-tRNA sintetase em Staphylococcus aureus que conferem resistência à mupirocina.</p>
+      <p><u><b>Função biológica:</b></u> Catalisa a ligação da isoleucina ao tRNA.</p>
       <p><u><b>Mecanismo de resistência:</b></u> Alteração do alvo do antibiótico</p>
       <b><u>Sequência</u></b>
       <ul>
@@ -187,14 +228,10 @@ body, html {
         <li><a href="https://www.uniprot.org/uniprot/P41972.fasta" target="_blank" >Sequência da proteina</a></li>
       </ul>
     </div>
-    <div class="w3-row-padding w3-center" style="margin-top:64px; margin-left:5%; margin-right:5%;" >
-      <b class="w3-xlarge">Função Biológica</b>
-      <p>Catalisa a ligação da isoleucina ao tRNA (Ile). Como o IleRS pode inadvertidamente acomodar e processar aminoácidos estruturalmente semelhantes, como a valina, para evitar tais erros, ele possui duas atividades de edição dependentes de tRNA (Ile) distintas adicionais. Uma atividade é designada como edição 'pré-transferência' e envolve a hidrólise do Val-AMP ativado. A outra atividade é designada edição 'pós-transferência' e envolve a desacilação de Val-tRNA (Ile) mal descarregado (por similaridade).</p>
-    </div>
   </div>
 </div>
 
-<div class="w3-container w3-light-grey" style="min-height: 100%; padding-top: 80px;" id = "mprF">
+<div class="w3-container" style="min-height: 100%; padding-top: 80px;" id = "mprF">
   <h3 class="w3-center w3-xxlarge">mprF</h3>
   <div class="w3-row-padding" style="margin-top:64px; margin-bottom: 60px;">
     <div class="w3-col l5 m6 w3-margin-bottom" style="margin-left:5%">
@@ -221,7 +258,7 @@ body, html {
   </div>
 </div>
 
-<div class="w3-container" style="min-height: 70%; padding-top: 100px;" id = "ileS">
+<div class="w3-container w3-light-grey" style="min-height: 70%; padding-top: 100px;">
   <div class="w3-row-padding w3-left" style="margin-top:64px; margin-left:5%; margin-right:5%;" >
     <b class="w3-xlarge">Referências Bibliográficas</b>
     <p></p>
