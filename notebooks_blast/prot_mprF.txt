@@ -1,0 +1,235 @@
+ID   MPRF_STAA8              Reviewed;         840 AA.
+AC   Q2G2M2;
+DT   25-JUL-2006, integrated into UniProtKB/Swiss-Prot.
+DT   21-MAR-2006, sequence version 1.
+DT   29-SEP-2021, entry version 100.
+DE   RecName: Full=Phosphatidylglycerol lysyltransferase;
+DE            EC=2.3.2.3;
+DE   AltName: Full=Lysylphosphatidylglycerol synthase;
+DE            Short=LPG synthase;
+DE   AltName: Full=Multiple peptide resistance factor;
+GN   Name=mprF; OrderedLocusNames=SAOUHSC_01359;
+OS   Staphylococcus aureus (strain NCTC 8325 / PS 47).
+OC   Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae;
+OC   Staphylococcus.
+OX   NCBI_TaxID=93061;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [GENOMIC DNA], DISRUPTION PHENOTYPE, AND HOST DEFENSE
+RP   PEPTIDES RESISTANCE.
+RX   PubMed=11342591; DOI=10.1084/jem.193.9.1067;
+RA   Peschel A., Jack R.W., Otto M., Collins L.V., Staubitz P., Nicholson G.,
+RA   Kalbacher H., Nieuwenhuizen W.F., Jung G., Tarkowski A., van Kessel K.P.M.,
+RA   van Strijp J.A.G.;
+RT   "Staphylococcus aureus resistance to human defensins and evasion of
+RT   neutrophil killing via the novel virulence factor MprF is based on
+RT   modification of membrane lipids with L-lysine.";
+RL   J. Exp. Med. 193:1067-1076(2001).
+RN   [2]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=NCTC 8325 / PS 47;
+RA   Gillaspy A.F., Worrell V., Orvis J., Roe B.A., Dyer D.W., Iandolo J.J.;
+RT   "The Staphylococcus aureus NCTC 8325 genome.";
+RL   (In) Fischetti V., Novick R., Ferretti J., Portnoy D., Rood J. (eds.);
+RL   Gram positive pathogens, 2nd edition, pp.381-412, ASM Press, Washington
+RL   D.C. (2006).
+RN   [3]
+RP   HOST DEFENSE PEPTIDES RESISTANCE.
+RX   PubMed=12496209; DOI=10.1128/iai.71.1.546-549.2003;
+RA   Kristian S.A., Duerr M., van Strijp J.A.G., Neumeister B., Peschel A.;
+RT   "MprF-mediated lysinylation of phospholipids in Staphylococcus aureus leads
+RT   to protection against oxygen-independent neutrophil killing.";
+RL   Infect. Immun. 71:546-549(2003).
+RN   [4]
+RP   FUNCTION, CATALYTIC ACTIVITY, AND ACTIVITY REGULATION.
+RX   PubMed=14769468; DOI=10.1016/s0378-1097(03)00921-2;
+RA   Staubitz P., Neumann H., Schneider T., Wiedemann I., Peschel A.;
+RT   "MprF-mediated biosynthesis of lysylphosphatidylglycerol, an important
+RT   determinant in staphylococcal defensin resistance.";
+RL   FEMS Microbiol. Lett. 231:67-71(2004).
+RN   [5]
+RP   FUNCTION, KINETIC PARAMETERS, SUBCELLULAR LOCATION, AND DISRUPTION
+RP   PHENOTYPE.
+RX   PubMed=14702396; DOI=10.1099/mic.0.26706-0;
+RA   Oku Y., Kurokawa K., Ichihashi N., Sekimizu K.;
+RT   "Characterization of the Staphylococcus aureus mprF gene, involved in
+RT   lysinylation of phosphatidylglycerol.";
+RL   Microbiology 150:45-51(2004).
+CC   -!- FUNCTION: Catalyzes the transfer of a lysyl group from L-lysyl-
+CC       tRNA(Lys) to membrane-bound phosphatidylglycerol (PG), which produces
+CC       lysylphosphatidylglycerol (LPG), a major component of the bacterial
+CC       membrane with a positive net charge. LPG synthesis contributes to
+CC       bacterial virulence as it is involved in the resistance mechanism
+CC       against cationic antimicrobial peptides (CAMP) produces by the host's
+CC       immune system (defensins, cathelicidins) and by the competing
+CC       microorganisms (bacteriocins). In fact, the modification of anionic
+CC       phosphatidylglycerol with positively charged L-lysine results in
+CC       repulsion of the peptides. Consequently, MprF is shown to affect
+CC       resistance and susceptibility to moenomycin and vancomycin, resistance
+CC       to human defensins (HNP1-3) and evasion of oxygen-independent
+CC       neutrophil killing and susceptibility to methicillin, oxacillin,
+CC       bacitracin, gentamicin, beta-lactams and synthetic peptides (hBD3,
+CC       CAP18) and other cationic antimicrobial peptides.
+CC       {ECO:0000269|PubMed:14702396, ECO:0000269|PubMed:14769468}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=1,2-diacyl-sn-glycero-3-phospho-(1'-sn-glycerol) + L-lysyl-
+CC         tRNA(Lys) = 1,2-diacyl-sn-glycero-3-phospho-1'-(3'-O-L-lysyl)-sn-
+CC         glycerol + tRNA(Lys); Xref=Rhea:RHEA:10668, Rhea:RHEA-COMP:9696,
+CC         Rhea:RHEA-COMP:9697, ChEBI:CHEBI:64716, ChEBI:CHEBI:75792,
+CC         ChEBI:CHEBI:78442, ChEBI:CHEBI:78529; EC=2.3.2.3;
+CC         Evidence={ECO:0000269|PubMed:14769468};
+CC   -!- ACTIVITY REGULATION: Inhibited by cadaverin or RNase A.
+CC       {ECO:0000269|PubMed:14769468}.
+CC   -!- BIOPHYSICOCHEMICAL PROPERTIES:
+CC       Kinetic parameters:
+CC         KM=6.9 uM for L-lysyl-tRNA {ECO:0000269|PubMed:14702396};
+CC         KM=56 uM for phosphatidylglycerol {ECO:0000269|PubMed:14702396};
+CC   -!- SUBCELLULAR LOCATION: Cell membrane {ECO:0000269|PubMed:14702396};
+CC       Multi-pass membrane protein {ECO:0000269|PubMed:14702396}.
+CC   -!- DISRUPTION PHENOTYPE: Strains lacking this gene do not have a
+CC       detectable amount of LPG in their membrane lipids. They are also more
+CC       susceptible to defensin and have a higher affinity for cationic
+CC       peptides. {ECO:0000269|PubMed:11342591, ECO:0000269|PubMed:14702396}.
+CC   -!- SIMILARITY: Belongs to the LPG synthase family. {ECO:0000305}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AF145699; AAK58115.1; -; Genomic_DNA.
+DR   EMBL; CP000253; ABD30454.1; -; Genomic_DNA.
+DR   RefSeq; WP_001071135.1; NZ_LS483365.1.
+DR   RefSeq; YP_499886.1; NC_007795.1.
+DR   STRING; 1280.SAXN108_1376; -.
+DR   EnsemblBacteria; ABD30454; ABD30454; SAOUHSC_01359.
+DR   GeneID; 3920064; -.
+DR   KEGG; sao:SAOUHSC_01359; -.
+DR   PATRIC; fig|93061.5.peg.1243; -.
+DR   eggNOG; COG0392; Bacteria.
+DR   eggNOG; COG2898; Bacteria.
+DR   HOGENOM; CLU_008255_7_1_9; -.
+DR   OMA; WEPRYMA; -.
+DR   BioCyc; MetaCyc:MONOMER-7721; -.
+DR   BRENDA; 2.3.2.3; 3352.
+DR   PHI-base; PHI:7738; -.
+DR   PRO; PR:Q2G2M2; -.
+DR   Proteomes; UP000008816; Chromosome.
+DR   GO; GO:0016021; C:integral component of membrane; IEA:UniProtKB-KW.
+DR   GO; GO:0005886; C:plasma membrane; IEA:UniProtKB-SubCell.
+DR   GO; GO:0016755; F:aminoacyltransferase activity; IBA:GO_Central.
+DR   GO; GO:0050071; F:lysyltransferase activity; IEA:UniProtKB-EC.
+DR   GO; GO:0006629; P:lipid metabolic process; IEA:UniProtKB-KW.
+DR   GO; GO:0055091; P:phospholipid homeostasis; IBA:GO_Central.
+DR   GO; GO:0046677; P:response to antibiotic; IEA:UniProtKB-KW.
+DR   InterPro; IPR016181; Acyl_CoA_acyltransferase.
+DR   InterPro; IPR022791; L-PG_synthase/AglD.
+DR   InterPro; IPR024320; LPG_synthase_C.
+DR   Pfam; PF09924; DUF2156; 1.
+DR   Pfam; PF03706; LPG_synthase_TM; 1.
+DR   SUPFAM; SSF55729; SSF55729; 1.
+DR   TIGRFAMs; TIGR00374; TIGR00374; 1.
+PE   1: Evidence at protein level;
+KW   Antibiotic resistance; Cell membrane; Lipid metabolism; Membrane;
+KW   Reference proteome; Transferase; Transmembrane; Transmembrane helix;
+KW   Virulence.
+FT   CHAIN           1..840
+FT                   /note="Phosphatidylglycerol lysyltransferase"
+FT                   /id="PRO_0000247953"
+FT   TOPO_DOM        1..8
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        9..29
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        30..52
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        53..73
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        74..89
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        90..110
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        111..128
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        129..149
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        150..161
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        162..182
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        183..200
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        201..221
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        222..229
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        230..250
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        251..271
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        272..292
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        293..337
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        338..358
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        359..369
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        370..390
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        391..394
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        395..415
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        416..436
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        437..450
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        451..471
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        472..489
+FT                   /note="Extracellular"
+FT                   /evidence="ECO:0000255"
+FT   TRANSMEM        490..510
+FT                   /note="Helical"
+FT                   /evidence="ECO:0000255"
+FT   TOPO_DOM        511..840
+FT                   /note="Cytoplasmic"
+FT                   /evidence="ECO:0000255"
+SQ   SEQUENCE   840 AA;  96866 MW;  611F18831F42A6AD CRC64;
+     MNQEVKNKIF SILKITFATA LFIFVAITLY RELSGINFKD TLVEFSKINR MSLVLLFIGG
+     GASLVILSMY DVILSRALKM DISLGKVLRV SYIINALNAI VGFGGFIGAG VRAMVYKNYT
+     HDKKKLVHFI SLILISMLTG LSLLSLLIVF HVFDASLILD KITWVRWVLY VVSFFLPLFI
+     IYSMVRPPDK NNRFVGLYCT LVSCVEWLAA AVVLYFCGVI VDAHVSFMSF IAIFIIAALS
+     GLVSFIPGGF GAFDLVVLLG FKTLGVPEEK VLLMLLLYRF AYYFVPVIIA LILSSFEFGT
+     SAKKYIEGSK YFIPAKDVTS FLMSYQKDII AKIPSLSLAI LVFFTSMIFF VNNLTIVYDA
+     LYDGNHLTYY ILLAIHTSAC LLLLLNVVGI YKQSRRAIIF AMISILLITV ATFFTYASYI
+     LITWLAIIFV LLIVAFRRAR RLKRPVRMRN IVAMLLFSLF ILYVNHIFIA GTLYALDIYT
+     IEMHTSVLRY YFWLTILIIA IIIGMIAWLF DYQFSKVRIS SKIEDCEEII NQYGGNYLSH
+     LIYSGDKQFF TNENKTAFLM YRYKASSLVV LGDPLGDENA FDELLEAFYN YAEYLGYDVI
+     FYQVTDQHMP LYHNFGNQFF KLGEEAIIDL TQFSTSGKKR RGFRATLNKF DELNISFEII
+     EPPFSTEFIN ELQHVSDLWL DNRQEMHFSV GEFNEEYLSK APIGVMRNEE NEVIAFCSLM
+     PTYFNDAISV DLIRWLPELD LPLMDGLYLH MLLWSKEQGY TKFNMGMATL SNVGQLHYSY
+     LRERLAGRVF EHFNGLYRFQ GLRRYKSKYN PNWEPRFLVY RKDNSLWESL SKVMRVIRHK
+//

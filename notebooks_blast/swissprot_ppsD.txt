@@ -1,0 +1,266 @@
+ID   PPSD_MYCTU              Reviewed;        1827 AA.
+AC   P9WQE3; L0TDZ9; P96203; Q7D6F0;
+DT   16-APR-2014, integrated into UniProtKB/Swiss-Prot.
+DT   16-APR-2014, sequence version 1.
+DT   29-SEP-2021, entry version 44.
+DE   RecName: Full=Phenolphthiocerol/phthiocerol polyketide synthase subunit D {ECO:0000305};
+DE            EC=2.3.1.292 {ECO:0000269|PubMed:15749014, ECO:0000305|PubMed:20553505};
+DE   AltName: Full=(Phenol)carboxyphthiodiolenone synthase subunit D;
+DE   AltName: Full=Beta-ketoacyl-acyl-carrier-protein synthase I;
+DE   AltName: Full=Phthiocerol synthesis polyketide synthase type I PpsD;
+GN   Name=ppsD; OrderedLocusNames=Rv2934;
+OS   Mycobacterium tuberculosis (strain ATCC 25618 / H37Rv).
+OC   Bacteria; Actinobacteria; Corynebacteriales; Mycobacteriaceae;
+OC   Mycobacterium; Mycobacterium tuberculosis complex.
+OX   NCBI_TaxID=83332;
+RN   [1]
+RP   NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA].
+RC   STRAIN=ATCC 25618 / H37Rv;
+RX   PubMed=9634230; DOI=10.1038/31159;
+RA   Cole S.T., Brosch R., Parkhill J., Garnier T., Churcher C.M., Harris D.E.,
+RA   Gordon S.V., Eiglmeier K., Gas S., Barry C.E. III, Tekaia F., Badcock K.,
+RA   Basham D., Brown D., Chillingworth T., Connor R., Davies R.M., Devlin K.,
+RA   Feltwell T., Gentles S., Hamlin N., Holroyd S., Hornsby T., Jagels K.,
+RA   Krogh A., McLean J., Moule S., Murphy L.D., Oliver S., Osborne J.,
+RA   Quail M.A., Rajandream M.A., Rogers J., Rutter S., Seeger K., Skelton S.,
+RA   Squares S., Squares R., Sulston J.E., Taylor K., Whitehead S.,
+RA   Barrell B.G.;
+RT   "Deciphering the biology of Mycobacterium tuberculosis from the complete
+RT   genome sequence.";
+RL   Nature 393:537-544(1998).
+RN   [2]
+RP   FUNCTION, CATALYTIC ACTIVITY, COFACTOR, AND PATHWAY.
+RX   PubMed=15749014; DOI=10.1016/j.molcel.2005.02.009;
+RA   Trivedi O.A., Arora P., Vats A., Ansari M.Z., Tickoo R., Sridharan V.,
+RA   Mohanty D., Gokhale R.S.;
+RT   "Dissecting the mechanism and assembly of a complex virulence mycobacterial
+RT   lipid.";
+RL   Mol. Cell 17:631-643(2005).
+RN   [3]
+RP   FUNCTION, AND CATALYTIC ACTIVITY.
+RX   PubMed=20553505; DOI=10.1111/j.1742-4658.2010.07688.x;
+RA   Simeone R., Leger M., Constant P., Malaga W., Marrakchi H., Daffe M.,
+RA   Guilhot C., Chalut C.;
+RT   "Delineation of the roles of FadD22, FadD26 and FadD29 in the biosynthesis
+RT   of phthiocerol dimycocerosates and related compounds in Mycobacterium
+RT   tuberculosis.";
+RL   FEBS J. 277:2715-2725(2010).
+RN   [4]
+RP   IDENTIFICATION BY MASS SPECTROMETRY [LARGE SCALE ANALYSIS].
+RC   STRAIN=ATCC 25618 / H37Rv;
+RX   PubMed=21969609; DOI=10.1074/mcp.m111.011627;
+RA   Kelkar D.S., Kumar D., Kumar P., Balakrishnan L., Muthusamy B., Yadav A.K.,
+RA   Shrivastava P., Marimuthu A., Anand S., Sundaram H., Kingsbury R.,
+RA   Harsha H.C., Nair B., Prasad T.S., Chauhan D.S., Katoch K., Katoch V.M.,
+RA   Kumar P., Chaerkady R., Ramachandran S., Dash D., Pandey A.;
+RT   "Proteogenomic analysis of Mycobacterium tuberculosis by high resolution
+RT   mass spectrometry.";
+RL   Mol. Cell. Proteomics 10:M111.011627-M111.011627(2011).
+CC   -!- FUNCTION: Part of the PpsABCDE complex involved in the biosynthesis of
+CC       the lipid core common to phthiocerols and phenolphthiocerols by
+CC       successive additions of malonyl-CoA or methylmalonyl-CoA extender units
+CC       (PubMed:15749014, PubMed:20553505). PpsA can accept as substrate the
+CC       activated forms of either icosanoyl (C20), docosanoyl (C22) or
+CC       lignoceroyl (C24) groups from FadD26, or a (4-hydroxyphenyl)-C17 or (4-
+CC       hydroxyphenyl)-C19 fatty acyl from FadD29 (PubMed:15749014,
+CC       PubMed:20553505). PpsA initiates the biosynthesis and extends its
+CC       substrate using a malonyl-CoA extender unit. The PpsB and PpsC proteins
+CC       add the second and third malonyl-CoA extender units. PpsD adds an (R)-
+CC       methylmalonyl unit and PpsE adds a second (R)-methylmalonyl unit. The
+CC       incorporation of the methylmalonyl units results in formation of two
+CC       branched methyl groups in the elongated product (PubMed:15749014).
+CC       {ECO:0000269|PubMed:15749014, ECO:0000269|PubMed:20553505}.
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 (S)-methylmalonyl-CoA + 10 H(+) + icosanoyl-
+CC         [(phenol)carboxyphthiodiolenone synthase] + 3 malonyl-CoA + 5 NADPH =
+CC         C32-carboxyphthiodiolenone-[(phenol)carboxyphthiodiolenone synthase]
+CC         + 5 CO2 + 5 CoA + 2 H2O + 5 NADP(+); Xref=Rhea:RHEA:57748, Rhea:RHEA-
+CC         COMP:14985, Rhea:RHEA-COMP:14986, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16526, ChEBI:CHEBI:57287,
+CC         ChEBI:CHEBI:57327, ChEBI:CHEBI:57384, ChEBI:CHEBI:57783,
+CC         ChEBI:CHEBI:58349, ChEBI:CHEBI:87848, ChEBI:CHEBI:142236;
+CC         EC=2.3.1.292; Evidence={ECO:0000269|PubMed:15749014,
+CC         ECO:0000305|PubMed:20553505};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 (S)-methylmalonyl-CoA + docosanoyl-
+CC         [(phenol)carboxyphthiodiolenone synthase] + 10 H(+) + 3 malonyl-CoA +
+CC         5 NADPH = C34-carboxyphthiodiolenone-[(phenol)carboxyphthiodiolenone
+CC         synthase] + 5 CO2 + 5 CoA + 2 H2O + 5 NADP(+); Xref=Rhea:RHEA:57752,
+CC         Rhea:RHEA-COMP:14987, Rhea:RHEA-COMP:14988, ChEBI:CHEBI:15377,
+CC         ChEBI:CHEBI:15378, ChEBI:CHEBI:16526, ChEBI:CHEBI:57287,
+CC         ChEBI:CHEBI:57327, ChEBI:CHEBI:57384, ChEBI:CHEBI:57783,
+CC         ChEBI:CHEBI:58349, ChEBI:CHEBI:142237, ChEBI:CHEBI:142238;
+CC         EC=2.3.1.292; Evidence={ECO:0000269|PubMed:15749014,
+CC         ECO:0000305|PubMed:20553505};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 (S)-methylmalonyl-CoA + 17-(4-hydroxyphenyl)heptadecanoyl-
+CC         [(phenol)carboxyphthiodiolenone synthase] + 10 H(+) + 3 malonyl-CoA +
+CC         5 NADPH = C35-(phenol)carboxyphthiodiolenone-
+CC         [(phenol)carboxyphthiodiolenone synthase] + 5 CO2 + 5 CoA + 2 H2O + 5
+CC         NADP(+); Xref=Rhea:RHEA:57756, Rhea:RHEA-COMP:14272, Rhea:RHEA-
+CC         COMP:14989, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:57327, ChEBI:CHEBI:57384,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:58349, ChEBI:CHEBI:133300,
+CC         ChEBI:CHEBI:142259; EC=2.3.1.292;
+CC         Evidence={ECO:0000269|PubMed:15749014, ECO:0000305|PubMed:20553505};
+CC   -!- CATALYTIC ACTIVITY:
+CC       Reaction=2 (S)-methylmalonyl-CoA + 19-(4-hydroxyphenyl)nonadecanoyl-
+CC         [(phenol)carboxyphthiodiolenone synthase] + 10 H(+) + 3 malonyl-CoA +
+CC         5 NADPH = C37-(phenol)carboxyphthiodiolenone-
+CC         [(phenol)carboxyphthiodiolenone synthase] + 5 CO2 + 5 CoA + 2 H2O + 5
+CC         NADP(+); Xref=Rhea:RHEA:57760, Rhea:RHEA-COMP:14273, Rhea:RHEA-
+CC         COMP:14990, ChEBI:CHEBI:15377, ChEBI:CHEBI:15378, ChEBI:CHEBI:16526,
+CC         ChEBI:CHEBI:57287, ChEBI:CHEBI:57327, ChEBI:CHEBI:57384,
+CC         ChEBI:CHEBI:57783, ChEBI:CHEBI:58349, ChEBI:CHEBI:133301,
+CC         ChEBI:CHEBI:142260; EC=2.3.1.292;
+CC         Evidence={ECO:0000269|PubMed:15749014, ECO:0000305|PubMed:20553505};
+CC   -!- COFACTOR:
+CC       Name=NADP(+); Xref=ChEBI:CHEBI:58349;
+CC         Evidence={ECO:0000269|PubMed:15749014};
+CC   -!- COFACTOR:
+CC       Name=pantetheine 4'-phosphate; Xref=ChEBI:CHEBI:47942;
+CC         Evidence={ECO:0000250};
+CC       Note=Binds 1 phosphopantetheine covalently. {ECO:0000250};
+CC   -!- PATHWAY: Lipid metabolism; fatty acid biosynthesis.
+CC       {ECO:0000269|PubMed:15749014}.
+CC   ---------------------------------------------------------------------------
+CC   Copyrighted by the UniProt Consortium, see https://www.uniprot.org/terms
+CC   Distributed under the Creative Commons Attribution (CC BY 4.0) License
+CC   ---------------------------------------------------------------------------
+DR   EMBL; AL123456; CCP45737.1; -; Genomic_DNA.
+DR   PIR; B70984; B70984.
+DR   RefSeq; NP_217450.1; NC_000962.3.
+DR   RefSeq; WP_003899549.1; NZ_NVQJ01000015.1.
+DR   SMR; P9WQE3; -.
+DR   STRING; 83332.Rv2934; -.
+DR   PaxDb; P9WQE3; -.
+DR   GeneID; 887172; -.
+DR   KEGG; mtu:Rv2934; -.
+DR   TubercuList; Rv2934; -.
+DR   eggNOG; COG1028; Bacteria.
+DR   eggNOG; COG3321; Bacteria.
+DR   OMA; CARTHAE; -.
+DR   PhylomeDB; P9WQE3; -.
+DR   UniPathway; UPA00094; -.
+DR   Proteomes; UP000001584; Chromosome.
+DR   GO; GO:0005886; C:plasma membrane; HDA:MTBBASE.
+DR   GO; GO:0034081; C:polyketide synthase complex; ISS:UniProtKB.
+DR   GO; GO:0004315; F:3-oxoacyl-[acyl-carrier-protein] synthase activity; IEA:InterPro.
+DR   GO; GO:0016491; F:oxidoreductase activity; IEA:UniProtKB-KW.
+DR   GO; GO:0031177; F:phosphopantetheine binding; IEA:InterPro.
+DR   GO; GO:0071770; P:DIM/DIP cell wall layer assembly; IDA:MTBBASE.
+DR   GO; GO:0006633; P:fatty acid biosynthetic process; IDA:MTBBASE.
+DR   GO; GO:0097041; P:phenolic phthiocerol biosynthetic process; ISS:UniProtKB.
+DR   GO; GO:0097040; P:phthiocerol biosynthetic process; ISS:UniProtKB.
+DR   Gene3D; 1.10.1200.10; -; 1.
+DR   Gene3D; 3.10.129.110; -; 1.
+DR   Gene3D; 3.40.366.10; -; 1.
+DR   Gene3D; 3.40.47.10; -; 1.
+DR   InterPro; IPR001227; Ac_transferase_dom_sf.
+DR   InterPro; IPR036736; ACP-like_sf.
+DR   InterPro; IPR014043; Acyl_transferase.
+DR   InterPro; IPR016035; Acyl_Trfase/lysoPLipase.
+DR   InterPro; IPR018201; Ketoacyl_synth_AS.
+DR   InterPro; IPR014031; Ketoacyl_synth_C.
+DR   InterPro; IPR014030; Ketoacyl_synth_N.
+DR   InterPro; IPR016036; Malonyl_transacylase_ACP-bd.
+DR   InterPro; IPR036291; NAD(P)-bd_dom_sf.
+DR   InterPro; IPR032821; PKS_assoc.
+DR   InterPro; IPR020841; PKS_Beta-ketoAc_synthase_dom.
+DR   InterPro; IPR020807; PKS_dehydratase.
+DR   InterPro; IPR042104; PKS_dehydratase_sf.
+DR   InterPro; IPR013968; PKS_KR.
+DR   InterPro; IPR020806; PKS_PP-bd.
+DR   InterPro; IPR009081; PP-bd_ACP.
+DR   InterPro; IPR006162; Ppantetheine_attach_site.
+DR   InterPro; IPR016039; Thiolase-like.
+DR   Pfam; PF00698; Acyl_transf_1; 1.
+DR   Pfam; PF16197; KAsynt_C_assoc; 1.
+DR   Pfam; PF00109; ketoacyl-synt; 1.
+DR   Pfam; PF02801; Ketoacyl-synt_C; 1.
+DR   Pfam; PF08659; KR; 1.
+DR   Pfam; PF00550; PP-binding; 1.
+DR   Pfam; PF14765; PS-DH; 1.
+DR   SMART; SM00827; PKS_AT; 1.
+DR   SMART; SM00826; PKS_DH; 1.
+DR   SMART; SM00825; PKS_KS; 1.
+DR   SMART; SM00823; PKS_PP; 1.
+DR   SUPFAM; SSF47336; SSF47336; 1.
+DR   SUPFAM; SSF51735; SSF51735; 2.
+DR   SUPFAM; SSF52151; SSF52151; 1.
+DR   SUPFAM; SSF53901; SSF53901; 1.
+DR   SUPFAM; SSF55048; SSF55048; 1.
+DR   PROSITE; PS00606; B_KETOACYL_SYNTHASE; 1.
+DR   PROSITE; PS50075; CARRIER; 1.
+DR   PROSITE; PS00012; PHOSPHOPANTETHEINE; 1.
+PE   1: Evidence at protein level;
+KW   Fatty acid metabolism; Lipid metabolism; Multifunctional enzyme; NADP;
+KW   Oxidoreductase; Phosphopantetheine; Phosphoprotein; Reference proteome;
+KW   Transferase.
+FT   CHAIN           1..1827
+FT                   /note="Phenolphthiocerol/phthiocerol polyketide synthase
+FT                   subunit D"
+FT                   /id="PRO_0000406950"
+FT   DOMAIN          1706..1785
+FT                   /note="Carrier"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00258"
+FT   NP_BIND         1440..1485
+FT                   /note="NADP"
+FT                   /evidence="ECO:0000250"
+FT   REGION          38..464
+FT                   /note="Beta-ketoacyl synthase"
+FT                   /evidence="ECO:0000250"
+FT   REGION          566..876
+FT                   /note="Acyltransferase"
+FT                   /evidence="ECO:0000250"
+FT   REGION          910..1076
+FT                   /note="Dehydratase"
+FT                   /evidence="ECO:0000250"
+FT   REGION          1439..1617
+FT                   /note="Beta-ketoacyl reductase"
+FT                   /evidence="ECO:0000250"
+FT   REGION          1807..1827
+FT                   /note="Disordered"
+FT                   /evidence="ECO:0000256|SAM:MobiDB-lite"
+FT   ACT_SITE        207
+FT                   /note="For beta-ketoacyl synthase activity"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10022"
+FT   ACT_SITE        654
+FT                   /note="For malonyltransferase activity"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU10022"
+FT   MOD_RES         1745
+FT                   /note="O-(pantetheine 4'-phosphoryl)serine"
+FT                   /evidence="ECO:0000255|PROSITE-ProRule:PRU00258"
+SQ   SEQUENCE   1827 AA;  193315 MW;  88A3C1392838D953 CRC64;
+     MTSLAERAAQ LSPNARAALA RELVRAGTTF PTDICEPVAV VGIGCRFPGN VTGPESFWQL
+     LADGVDTIEQ VPPDRWDADA FYDPDPSASG RMTTKWGGFV SDVDAFDADF FGITPREAVA
+     MDPQHRMLLE VAWEALEHAG IPPDSLSGTR TGVMMGLSSW DYTIVNIERR ADIDAYLSTG
+     TPHCAAVGRI AYLLGLRGPA VAVDTACSSS LVAIHLACQS LRLRETDVAL AGGVQLTLSP
+     FTAIALSKWS ALSPTGRCNS FDANADGFVR GEGCGVVVLK RLADAVRDQD RVLAVVRGSA
+     TNSDGRSNGM TAPNALAQRD VITSALKLAD VTPDSVNYVE THGTGTVLGD PIEFESLAAT
+     YGLGKGQGES PCALGSVKTN IGHLEAAAGV AGFIKAVLAV QRGHIPRNLH FTRWNPAIDA
+     SATRLFVPTE SAPWPAAAGP RRAAVSSFGL SGTNAHVVVE QAPDTAVAAA GGMPYVSALN
+     VSGKTAARVA SAAAVLADWM SGPGAAAPLA DVAHTLNRHR ARHAKFATVI ARDRAEAIAG
+     LRALAAGQPR VGVVDCDQHA GGPGRVFVYS GQGSQWASMG QQLLANEPAF AKAVAELDPI
+     FVDQVGFSLQ QTLIDGDEVV GIDRIQPVLV GMQLALTELW RSYGVIPDAV IGHSMGEVSA
+     AVVAGALTPE QGLRVITTRS RLMARLSGQG AMALLELDAD AAEALIAGYP QVTLAVHASP
+     RQTVIAGPPE QVDTVIAAVA TQNRLARRVE VDVASHHPII DPILPELRSA LADLTPQPPS
+     IPIISTTYES AQPVADADYW SANLRNPVRF HQAVTAAGVD HNTFIEISPH PVLTHALTDT
+     LDPDGSHTVM STMNRELDQT LYFHAQLAAV GVAASEHTTG RLVDLPPTPW HHQRFWVTDR
+     SAMSELAATH PLLGAHIEMP RNGDHVWQTD VGTEVCPWLA DHKVFGQPIM PAAGFAEIAL
+     AAASEALGTA ADAVAPNIVI NQFEVEQMLP LDGHTPLTTQ LIRGGDSQIR VEIYSRTRGG
+     EFCRHATAKV EQSPRECAHA HPEAQGPATG TTVSPADFYA LLRQTGQHHG PAFAALSRIV
+     RLADGSAETE ISIPDEAPRH PGYRLHPVVL DAALQSVGAA IPDGEIAGSA EASYLPVSFE
+     TIRVYRDIGR HVRCRAHLTN LDGGTGKMGR IVLINDAGHI AAEVDGIYLR RVERRAVPLP
+     LEQKIFDAEW TESPIAAVPA PEPAAETTRG SWLVLADATV DAPGKAQAKS MADDFVQQWR
+     SPMRRVHTAD IHDESAVLAA FAETAGDPEH PPVGVVVFVG GASSRLDDEL AAARDTVWSI
+     TTVVRAVVGT WHGRSPRLWL VTGGGLSVAD DEPGTPAAAS LKGLVRVLAF EHPDMRTTLV
+     DLDITQDPLT ALSAELRNAG SGSRHDDVIA WRGERRFVER LSRATIDVSK GHPVVRQGAS
+     YVVTGGLGGL GLVVARWLVD RGAGRVVLGG RSDPTDEQCN VLAELQTRAE IVVVRGDVAS
+     PGVAEKLIET ARQSGGQLRG VVHAAAVIED SLVFSMSRDN LERVWAPKAT GALRMHEATA
+     DCELDWWLGF SSAASLLGSP GQAAYACASA WLDALVGWRR ASGLPAAVIN WGPWSEVGVA
+     QALVGSVLDT ISVAEGIEAL DSLLAADRIR TGVARLRADR ALVAFPEIRS ISYFTQVVEE
+     LDSAGDLGDW GGPDALADLD PGEARRAVTE RMCARIAAVM GYTDQSTVEP AVPLDKPLTE
+     LGLDSLMAVR IRNGARADFG VEPPVALILQ GASLHDLTAD LMRQLGLNDP DPALNNADTI
+     RDRARQRAAA RHGAAMRRRP KPEVQGG
+//
