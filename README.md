@@ -9,3 +9,4 @@ Trabalho realizado pelos elementos:
 - [Rúben Silva, PG44580](https://github.com/RubenPTFCP)
 - [Tiago Oliveria, P45476](https://github.com/Malavita02)
 
+Neste repositório pode aceder aos scripst utilizados.
