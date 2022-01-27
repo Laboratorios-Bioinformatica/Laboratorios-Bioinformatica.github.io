@@ -14,3 +14,5 @@ que se encontram na pasta "notebooks_blast". No diretorio "alinhamentos_genes" e
 referentes a cada gene estudado. Para criar as arvores filogenéticas utilizamos támbem scripts com os
 modulos Phylo e Matplotlib que se encontram no diretorio Phylo.
 Os restantes ficheiros nomeadamente: images, index e stylesheets, compôem o site.
+
+Site: https://laboratorios-bioinformatica.github.io
